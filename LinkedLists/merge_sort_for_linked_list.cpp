@@ -1,4 +1,4 @@
-// { Driver Code Starts
+// https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,26 +14,7 @@ struct Node {
 };
 
 
- // } Driver Code Ends
 
-
-
-
-
-
-
-
-/* Structure of the linked list node is as
-struct Node 
-{
-    int data;
-    struct Node* next;
-    Node(int x) { data = x;  next = NULL; }
-};
-*/
-
-/* Function to mergesort the linked list
-   It should return head of the modified list  */
 Node* merge(Node* l1,Node* l2)
 {
     if(!l1)
